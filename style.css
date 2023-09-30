@@ -1,0 +1,50 @@
+/* some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color  */
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style sections */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px pink(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style project boxes */
+.project {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Style footer */
+footer {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
